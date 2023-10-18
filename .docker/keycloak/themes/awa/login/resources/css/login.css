@@ -1,0 +1,132 @@
+.login-pf {
+  background: none;
+}
+
+.login-pf body {
+  background: url("../img/awa-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.login-pf a {
+  color: #0199D2;
+
+  &:hover {
+    color: #3551A4;
+  }
+}
+
+.login-pf-page {
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* Logo Session */
+  #kc-header {
+    margin: 0 0 20px;
+    overflow: visible;
+    white-space: nowrap;
+
+    /* Logomarca */
+    #kc-header-wrapper {
+      background-image: url(../img/awa-logo.png);
+      background-repeat: no-repeat;
+      height: 72px;
+      width: 295px;
+      margin: 0 auto;
+      color: transparent;
+    }
+  }
+}
+
+/* Form session */
+.login-pf-page .card-pf {
+  margin: 0 auto;
+  box-shadow: var(--pf-global--BoxShadow--lg);
+  padding: 20px;
+  max-width: 340px;
+  background: #FFFFFF;
+  border-top: 4px solid;
+  border-color: #3551A4;
+  border-radius: 16px;
+
+  /* Title */
+  #kc-page-title {
+    margin: 0;
+  }
+
+  /* Content */
+  #kc-content {
+    width: 100%;
+
+    #kc-content-wrapper {
+      margin-top: 20px;
+
+      /* Alert */
+      .pf-c-alert {
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding: 10px;
+
+        .pf-c-alert__title {
+          font-size: 13px;
+        }
+      }
+
+      /* Info */
+      #kc-info {
+        margin: 0;
+
+        #kc-info-wrapper {
+          background-color: #F0F0F0;
+          border-radius: 4px;
+          font-size: 12px;
+          padding: 15px;
+        }
+      }
+
+      /* Options */
+      #kc-form-options {
+        margin: 0 0 15px;
+      }
+    }
+
+    /* Form components */
+    #kc-form-wrapper {
+      margin-top: 0;
+
+      /* Button */
+      #kc-form-buttons {
+        margin: 15px 0 0;
+      }
+    }
+  }
+}
+
+.btn-lg {
+  border-radius: 4px;
+  padding: 8px 0;
+}
+
+/* Input field */
+.pf-c-form-control {
+  border-width: 1px;
+  border-color: #CFD0D3;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.pf-c-button.pf-m-primary {
+  background: #0199D2;
+
+  &:hover {
+    background: #3551A4;
+  }
+}
+
+.required {
+  color: var(--pf-global--danger-color--200);
+}
